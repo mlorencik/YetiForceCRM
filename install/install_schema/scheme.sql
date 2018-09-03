@@ -1281,7 +1281,7 @@ CREATE TABLE `u_yf_competition` (
   `vat_id` varchar(30) DEFAULT NULL,
   `sum_time` decimal(10,2) DEFAULT 0.00,
   `email` varchar(100) DEFAULT '',
-  `active` tinyint(1) DEFAULT 0,
+  `competition_status` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`competitionid`),
   CONSTRAINT `fk_1_u_yf_competition` FOREIGN KEY (`competitionid`) REFERENCES `vtiger_crmentity` (`crmid`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -2851,8 +2851,8 @@ CREATE TABLE `u_yf_partners` (
   `vat_id` varchar(30) DEFAULT NULL,
   `sum_time` decimal(10,2) DEFAULT 0.00,
   `email` varchar(100) DEFAULT '',
-  `active` tinyint(1) DEFAULT 0,
   `category` varchar(255) DEFAULT '',
+  `partner_status` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`partnersid`),
   CONSTRAINT `fk_1_u_yf_partners` FOREIGN KEY (`partnersid`) REFERENCES `vtiger_crmentity` (`crmid`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -4322,6 +4322,16 @@ CREATE TABLE `vtiger_cmileage_logbook_status` (
   PRIMARY KEY (`cmileage_logbook_statusid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
+/*Table structure for table `vtiger_competition_status` */
+
+CREATE TABLE `vtiger_competition_status` (
+  `competition_statusid` int(11) NOT NULL AUTO_INCREMENT,
+  `competition_status` varchar(255) DEFAULT NULL,
+  `presence` tinyint(1) DEFAULT 1,
+  `sortorderid` smallint(6) DEFAULT 0,
+  PRIMARY KEY (`competition_statusid`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
 /*Table structure for table `vtiger_contactaddress` */
 
 CREATE TABLE `vtiger_contactaddress` (
@@ -4706,7 +4716,7 @@ CREATE TABLE `vtiger_customview` (
   KEY `setdefault` (`setdefault`,`entitytype`),
   KEY `customview_userid_idx` (`userid`),
   CONSTRAINT `fk_1_vtiger_customview` FOREIGN KEY (`entitytype`) REFERENCES `vtiger_tab` (`name`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=118 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=124 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `vtiger_cvadvfilter` */
 
@@ -5450,7 +5460,7 @@ CREATE TABLE `vtiger_field` (
   KEY `field_sequence_idx` (`sequence`),
   KEY `field_uitype_idx` (`uitype`),
   CONSTRAINT `fk_1_vtiger_field` FOREIGN KEY (`tabid`) REFERENCES `vtiger_tab` (`tabid`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=2769 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2772 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `vtiger_field_seq` */
 
@@ -7268,6 +7278,16 @@ CREATE TABLE `vtiger_outsourcedproductscf` (
   PRIMARY KEY (`outsourcedproductsid`),
   CONSTRAINT `fk_1_vtiger_outsourcedproductscf` FOREIGN KEY (`outsourcedproductsid`) REFERENCES `vtiger_outsourcedproducts` (`outsourcedproductsid`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Table structure for table `vtiger_partner_status` */
+
+CREATE TABLE `vtiger_partner_status` (
+  `partner_statusid` int(11) NOT NULL AUTO_INCREMENT,
+  `partner_status` varchar(255) DEFAULT NULL,
+  `presence` tinyint(1) DEFAULT 1,
+  `sortorderid` smallint(6) DEFAULT 0,
+  PRIMARY KEY (`partner_statusid`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `vtiger_password` */
 
@@ -9169,12 +9189,22 @@ CREATE TABLE `vtiger_vendor` (
   `registration_number_2` varchar(30) DEFAULT NULL,
   `verification` text DEFAULT NULL,
   `sum_time` decimal(10,2) DEFAULT 0.00,
-  `active` tinyint(1) DEFAULT 0,
   `phone_extra` varchar(100) DEFAULT NULL,
+  `vendor_status` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`vendorid`),
   KEY `vendorname` (`vendorname`),
   CONSTRAINT `fk_1_vtiger_vendor` FOREIGN KEY (`vendorid`) REFERENCES `vtiger_crmentity` (`crmid`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Table structure for table `vtiger_vendor_status` */
+
+CREATE TABLE `vtiger_vendor_status` (
+  `vendor_statusid` int(11) NOT NULL AUTO_INCREMENT,
+  `vendor_status` varchar(255) DEFAULT NULL,
+  `presence` tinyint(1) DEFAULT 1,
+  `sortorderid` smallint(6) DEFAULT 0,
+  PRIMARY KEY (`vendor_statusid`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `vtiger_vendoraddress` */
 
