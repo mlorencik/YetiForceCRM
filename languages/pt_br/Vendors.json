@@ -24,7 +24,12 @@
     "Vendors": "Fornecedores",
     "Website": "Website",
     "LBL_BUILDING_NUMBER": "N\u00famero do Edif\u00edcio",
-    "LBL_LOCAL_NUMBER": "N\u00famero da Sala"
+    "LBL_LOCAL_NUMBER": "N\u00famero da Sala",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   },
   "js": {
     "LBL_DELETE_CONFIRMATION": "Ao apagar este Fornecedor ser\u00e3o removidos os Pedidos de Compras relacionados. Tem certeza que deseja apagar este Fornecedor?",

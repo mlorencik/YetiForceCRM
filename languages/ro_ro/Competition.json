@@ -8,6 +8,11 @@
     "LBL_SUBJECT": "Nume",
     "LBL_NUMBER": "Numar",
     "LBL_CLOSED_TIME": "Timp inchis",
-    "LBL_VAT_ID": "Cod TVA"
+    "LBL_VAT_ID": "Cod TVA",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

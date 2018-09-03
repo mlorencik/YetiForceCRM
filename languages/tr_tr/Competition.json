@@ -8,6 +8,11 @@
     "LBL_SUBJECT": "\u0130sim",
     "LBL_NUMBER": "Say\u0131",
     "LBL_CLOSED_TIME": "Kapan\u0131\u015f saati",
-    "LBL_VAT_ID": "Vergi Numaras\u0131"
+    "LBL_VAT_ID": "Vergi Numaras\u0131",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

@@ -24,7 +24,12 @@
     "Vendors": "Furnizori",
     "Website": "Website",
     "LBL_BUILDING_NUMBER": "Numar cladire",
-    "LBL_LOCAL_NUMBER": "Numar birou"
+    "LBL_LOCAL_NUMBER": "Numar birou",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   },
   "js": {
     "LBL_DELETE_CONFIRMATION": "Stergerea acestui Furnizor va elimina comenzile sale de cumparare. Sigur doriti sa stergeti acest furnizor?",

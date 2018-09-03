@@ -24,7 +24,12 @@
     "Vendors": "Dostawcy",
     "Website": "Strona internetowa",
     "LBL_BUILDING_NUMBER": "Numer budynku",
-    "LBL_LOCAL_NUMBER": "Numer lokalu"
+    "LBL_LOCAL_NUMBER": "Numer lokalu",
+    "LBL_ACTIVE": "Aktywne",
+    "LBL_INACTIVE": "Nieaktywne",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Aktywny",
+    "PLL_INACTIVE": "Nieaktywny"
   },
   "js": {
     "LBL_DELETE_CONFIRMATION": "Usuni\u0119cie tego sprzedawcy usunie r\u00f3wnie\u017c jego powi\u0105zane zlecenia. Czy napewno chcesz usun\u0105\u0107 tego sprzedawc\u0119?",

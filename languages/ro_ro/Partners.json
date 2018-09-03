@@ -9,6 +9,11 @@
     "LBL_NUMBER": "Numar",
     "LBL_CLOSED_TIME": "Timp inchidere",
     "LBL_VAT_ID": "ID Taxa",
-    "FL_CATEGORY": "Categorie"
+    "FL_CATEGORY": "Categorie",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

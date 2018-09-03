@@ -9,7 +9,12 @@
     "LBL_SUBJECT": "Nom du partenaire",
     "LBL_NUMBER": "No enregistrement",
     "LBL_CLOSED_TIME": "Heure de fermeture",
-    "LBL_VAT_ID": "N\u00b0 de TVA"
+    "LBL_VAT_ID": "N\u00b0 de TVA",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   },
   "js": []
 }

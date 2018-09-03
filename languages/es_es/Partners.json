@@ -9,6 +9,11 @@
     "LBL_NUMBER": "ID",
     "LBL_CLOSED_TIME": "Fecha cierre",
     "LBL_VAT_ID": "NIF",
-    "FL_CATEGORY": "Categor\u00eda"
+    "FL_CATEGORY": "Categor\u00eda",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

@@ -9,6 +9,11 @@
     "LBL_NUMBER": "Numara",
     "LBL_CLOSED_TIME": "Kapan\u0131\u015f saati",
     "LBL_VAT_ID": "Vergi numaras\u0131",
-    "FL_CATEGORY": "Kategori"
+    "FL_CATEGORY": "Kategori",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

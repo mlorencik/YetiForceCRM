@@ -25,7 +25,12 @@
     "Vendors": "Proveedores",
     "Website": "Sitio web",
     "LBL_BUILDING_NUMBER": "N\u00famero",
-    "LBL_LOCAL_NUMBER": "Piso"
+    "LBL_LOCAL_NUMBER": "Piso",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   },
   "js": {
     "LBL_DELETE_CONFIRMATION": "La eliminaci\u00f3n de este Proveedor eliminar\u00e1 sus pedidos de compra relacionados. \u00bfEst\u00e1 seguro de que desea eliminar este proveedor?",

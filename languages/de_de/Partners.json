@@ -9,6 +9,11 @@
     "LBL_NUMBER": "Nummer",
     "LBL_CLOSED_TIME": "Geschlossen am",
     "LBL_VAT_ID": "MwSt",
-    "FL_CATEGORY": "Kategorie"
+    "FL_CATEGORY": "Kategorie",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

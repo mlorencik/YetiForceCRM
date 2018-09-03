@@ -9,6 +9,11 @@
     "LBL_NUMBER": "Number",
     "LBL_CLOSED_TIME": "Closed time",
     "LBL_VAT_ID": "Tax ID",
-    "FL_CATEGORY": "Category"
+    "FL_CATEGORY": "Category",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }

@@ -24,7 +24,12 @@
     "Vendors": "Vendeurs",
     "Website": "Site web",
     "LBL_BUILDING_NUMBER": "B\u00e2timent N\u00b0",
-    "LBL_LOCAL_NUMBER": "Bureau N\u00b0"
+    "LBL_LOCAL_NUMBER": "Bureau N\u00b0",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   },
   "js": {
     "LBL_DELETE_CONFIRMATION": "Effacer ce vendeur va supprimer toutes ces commandes. Etes-vous sur de vouloir supprimer ce vendeur?",

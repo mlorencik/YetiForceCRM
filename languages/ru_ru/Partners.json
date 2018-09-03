@@ -9,6 +9,11 @@
     "LBL_SUBJECT": "\u0422\u0435\u043c\u0430",
     "LBL_NUMBER": "\u041d\u043e\u043c\u0435\u0440",
     "LBL_VAT_ID": "\u0418\u041d\u041d",
-    "FL_CATEGORY": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f"
+    "FL_CATEGORY": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+    "LBL_ACTIVE": "Active",
+    "LBL_INACTIVE": "Inactive",
+    "FL_STATUS": "Status",
+    "PLL_ACTIVE": "Active",
+    "PLL_INACTIVE": "Inactive"
   }
 }
